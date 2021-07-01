@@ -1,0 +1,12 @@
+server:
+  port: 9409
+
+spring:
+  data:
+    cassandra:
+      contact-points: localhost
+      port: 9042
+      schema-action: none
+      keyspace-name: demo
+      username: cassandra # default username.
+      password: cassandra # default password.
